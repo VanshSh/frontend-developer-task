@@ -1,5 +1,7 @@
 import * as React from 'react'
 import VisibilityOutlinedIcon from '@mui/icons-material/VisibilityOutlined'
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward'
+import { Link } from 'react-router-dom'
 
 export default function Login() {
     return (
@@ -45,7 +47,19 @@ export default function Login() {
                                 <VisibilityOutlinedIcon />
                             </div>
                         </div>
+                        <Link
+                            to='/community'
+                           className='flex justify-center mt-5 bg-blue-400 font-semibold text-white py-1 rounded'
+                        >
+                            Login now
+                        </Link>
                     </form>
+                    <p className='text-gray-500'>
+                        Not registered yet?{' '}
+                        <span className='text-white'>
+                            Register <ArrowForwardIcon fontSize='small' />{' '}
+                        </span>{' '}
+                    </p>
                 </div>
             </div>
         </>
