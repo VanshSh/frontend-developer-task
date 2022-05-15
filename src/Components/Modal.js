@@ -3,8 +3,8 @@ import Backdrop from '@mui/material/Backdrop'
 import Modal from '@mui/material/Modal'
 import Fade from '@mui/material/Fade'
 import { UseContext } from '../Context/context'
-import LoginModal from '../components/LoginModal'
-import SignupModal from '../components/SignupModal'
+import LoginModal from './LoginModal'
+import SignupModal from './SignupModal'
 
 const style = {
     position: 'absolute',
