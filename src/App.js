@@ -1,17 +1,16 @@
 import './App.css'
-import Login from './components/Login'
-import Community from './components/Community'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Modal from './utlity/Modal'
-
+import Home from './Page/Home'
+import Posts from './Page/Posts'
 
 function App() {
     return (
         <BrowserRouter>
             <Modal />
             <Routes>
-                <Route path='/' element={<Login />} />
-                <Route path='community' element={<Community />} />
+                <Route path='/' element={<Home />} />
+                <Route path='community' element={<Posts />} />
             </Routes>
         </BrowserRouter>
     )

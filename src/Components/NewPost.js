@@ -1,10 +1,10 @@
 import React from 'react'
 import MessageRoundedIcon from '@mui/icons-material/MessageRounded'
 import { UseContext } from '../Context/context'
-import Modal from '../utlity/Modal'
+
 
 const NewPost = () => {
-    const { isModalOpen, setIsModalOpen } = UseContext()
+    const { setIsModalOpen } = UseContext()
 
     return (
         <section

@@ -1,15 +1,31 @@
 import React from 'react'
 import VisibilityOutlinedIcon from '@mui/icons-material/VisibilityOutlined'
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward'
-import { Link } from 'react-router-dom'
-import { UseContext } from './Context/context'
+import { UseContext } from '../Context/context'
+import ClearIcon from "@mui/icons-material/Clear"
 
 const Signup = () => {
-    const { isLoginOpen,setIsLoginOpen } = UseContext()
+    const { isLoginOpen, setIsLoginOpen, modalCloseHandler } = UseContext()
+
     return (
-        <main className='absolute top-2/4 left-2/4  -translate-x-2/4 -translate-y-2/4  '>
+        <main>
             <div className='rounded p-4 pt-3  bg-gray-800 border-solid border-2'>
-                <div className=' text-center px-14 py-8 m-3 '>
+                <div className='relative text-center px-11 py-5 m-4 '>
+                    <ClearIcon
+                        sx={{
+                            position: 'absolute',
+                            top: '0',
+                            right: '0',
+                            color: 'white',
+                            cursor: 'pointer',
+                            backgroundColor: 'black',
+                            borderRadius: '50%',
+                            zIndex: '1',
+                            padding: '0.5rem',
+                            fontSize: '2rem',
+                        }}
+                        onClick={modalCloseHandler}
+                    />
                     <p className='  uppercase text-gray-500 text-sm '>
                         Sign up
                     </p>
@@ -48,12 +64,12 @@ const Signup = () => {
                             <VisibilityOutlinedIcon />
                         </div>
                     </div>
-                    <Link
-                        to='/community'
-                        className='flex justify-center mt-5 bg-blue-400 font-semibold text-white py-1 rounded'
+                    <button
+                        onClick={modalCloseHandler}
+                        className=' mt-5 bg-blue-400 w-full font-semibold text-white py-2 rounded'
                     >
                         Continue
-                    </Link>
+                    </button>
                 </form>
                 <p className='text-gray-500'>
                     Already have an account?{' '}

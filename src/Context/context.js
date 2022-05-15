@@ -6,9 +6,20 @@ export const ContextProvider = ({ children }) => {
     const [isModalOpen, setIsModalOpen] = useState(false)
     const [isLoginOpen, setIsLoginOpen] = useState(true)
 
+    const modalCloseHandler = (e) => {
+        e.preventDefault()
+        setIsModalOpen(!isModalOpen)
+    }
+
     return (
         <Context.Provider
-            value={{ isModalOpen, setIsModalOpen, isLoginOpen, setIsLoginOpen }}
+            value={{
+                isModalOpen,
+                isLoginOpen,
+                setIsModalOpen,
+                setIsLoginOpen,
+                modalCloseHandler,
+            }}
         >
             {children}
         </Context.Provider>
