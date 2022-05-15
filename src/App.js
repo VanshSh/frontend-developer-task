@@ -1,6 +1,6 @@
 import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Modal from "./components/Modal"
+import Modal from "./Components/Modal"
 import Home from './Page/Home'
 import Posts from './Page/Posts'
 

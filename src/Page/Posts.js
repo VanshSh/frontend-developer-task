@@ -1,5 +1,5 @@
 import React from 'react'
-import Community from '../components/Community'
+import Community from '../Components/Community'
 
 const Posts = () => {
     return <Community />
