@@ -1,39 +1,30 @@
-# Task: Frontend Developer Interview
+<div align="center">
 
-This is a task designed to understand the skillset of developers joining Now&Me.
-The task will be assessed on the following factors:
+# 📃 Now&Me( [LIVE DEMO](https://frontend-developer-task-ten.vercel.app/) )
 
-- Dependencies used
-- Git Commits
-- Modularity of the code
-- API design of the components / functions _(API here isn't REST API)_
-- Accessibility of the components
 
-## Design
+</div>
 
-[Link to Figma Design](https://www.figma.com/file/S4bZXDniOieMhyGIpTnVu5/Frontend-Developer%3A-Now%26Me)
+It is the UI for LOGIN and SIGNUP along with Community post page.
 
-## Requirements
 
-The goal of the task is to build a mini frontend app (Just the UI bit, no need to create an backend REST API) from the provided design linked above.
+## 👨‍💻 Tech Stack
 
-— You are free to choose your choice of framework [React (preferred) / Vue / Svelte / Next / Nuxt]
+**Frontend:** ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Material UI](https://img.shields.io/badge/material%20ui-007fff?style=for-the-badge&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-— You are free to choose either JavaScript or TypeScript (preferred)
 
-— You are free to choose your choice of CSS framework (TailwindCSS, styled-components, stitches, anything else)
+**Host:** ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 
-— You can fork this GitHub repo and work on the forked repo.
 
-## How to Submit the task?
+## 📷 Screenshots
 
-If you had applied from one of our job posts and we had reach out to you, please follow up on the conversation.
-If not, then email to [nitesh@nowandme.com](mailto:nitesh@nowandme.com) with the task and an intro.
+<img  src="https://awesomescreenshot.s3.amazonaws.com/image/2197022/27176010-9b3e4315ee907be0f95c107c9351164d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20220515%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220515T104807Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=b38e0ee6cbdcd4050ce70e99e35fd44f6028836fc88f5ff7f25f35d7c4be03c4"/>
 
-## Questions?
+<img  src="https://awesomescreenshot.s3.amazonaws.com/image/2197022/27176054-839e4c2953818ebd3469db6b53fef16b.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20220515%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220515T104931Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=371c6e2644e93133369ffce5d3741b5504b83dfb2e7c3637f3cc6985b60278ef"/>
 
-Please open an issue here on GitHub
 
----
+## 🔗 Contact
 
-[Twitter](https://twitter.com/nowandme) — [Instagram](https://instagram.com/nowandme) — [Web](https://nowandme.com/explore) — [Android](https://play.google.com/store/apps/details?id=com.nowandme.app) — [iOS](https://apps.apple.com/in/app/now-me-mental-health-community/id1587888702)
+[![Portfolio](https://img.shields.io/badge/My%20Portfolio-FF6C37?style=for-the-badge&&logoColor=white)](http://vanshsharma.vercel.app/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vanshsharma27/)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/Vanshsh2701)
