@@ -3,7 +3,7 @@ import VisibilityOutlinedIcon from '@mui/icons-material/VisibilityOutlined'
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward'
 import { Link } from 'react-router-dom'
 
-export default function Login() {
+const Login = () => {
     return (
         <main className='absolute top-2/4 left-2/4  -translate-x-2/4 -translate-y-2/4  '>
             <div className='rounded p-5  bg-gray-800 border-solid border-2'>
@@ -63,3 +63,5 @@ export default function Login() {
         </main>
     )
 }
+
+export default Login

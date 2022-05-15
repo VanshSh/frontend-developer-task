@@ -3,10 +3,10 @@ import MoreHorizIcon from '@mui/icons-material/MoreHoriz'
 import ChatBubbleOutlineRoundedIcon from '@mui/icons-material/ChatBubbleOutlineRounded'
 import { UseContext } from '../Context/context'
 
-const PostCard = ({data}) => {
+const PostCard = ({ data }) => {
     const { name, emoji, img, msg, time, comments, edited } = data
 
-    const { isModalOpen, setIsModalOpen } = UseContext()
+    const { setIsModalOpen } = UseContext()
     return (
         <section
             onClick={() => setIsModalOpen(true)}

@@ -2,7 +2,7 @@ import React from 'react'
 import VisibilityOutlinedIcon from '@mui/icons-material/VisibilityOutlined'
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward'
 import { UseContext } from '../Context/context'
-import ClearIcon from "@mui/icons-material/Clear"
+import ClearIcon from '@mui/icons-material/Clear'
 
 const Signup = () => {
     const { isLoginOpen, setIsLoginOpen, modalCloseHandler } = UseContext()
